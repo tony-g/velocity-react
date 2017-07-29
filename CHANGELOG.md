@@ -1,3 +1,34 @@
+### v1.3.3 (2017-05-19):
+
+Fixes incorrect timer clearing. (Thanks, @dmeiz1)
+
+### v1.3.2 (2017-05-11):
+
+Fix for calling clearTimeout in IE 8. (Thanks, @prchaoz!)
+
+Additional updates to peerDependencies around the new React 15.5-compatible
+libraries. (Thanks, @MichaelDeBoey!)
+
+### v1.3.1 (2017-05-09):
+
+Fixes React peer dependencies to specify versions that work with
+`prop-types`. (Thanks, @MichaelDeBoey!)
+
+### v1.3.0 (2017-05-08):
+
+Removes warnings from React 15.5 for React 16.0 compatibility.
+
+Converts to ES2015 classes, adds compilation on distribution.
+
+Minor version bump due to changes around removal of isMounted checks, so there
+may be some regressions.
+
+### v1.2.2 (2017-04-19):
+
+Adds `interruptBehavior` prop to `VelocityComponent`. (Thanks, @Robinfr!)
+
+Changes to remove warnings in React 15.5 will come shortly in v1.3.
+
 ### v1.2.1 (2017-01-19):
 
 This is a minor version bump that updates the version of babel to the latest (v6).
